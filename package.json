@@ -7,7 +7,8 @@
     "express": "^4.17.3"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon backend/app"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/saumya9348/expressMongocrud/issues"
   },
-  "homepage": "https://github.com/saumya9348/expressMongocrud#readme"
+  "homepage": "https://github.com/saumya9348/expressMongocrud#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express-async-handler": "^1.2.0",
+    "hbs": "^4.2.0",
+    "mongoose": "^6.3.1"
+  }
 }
