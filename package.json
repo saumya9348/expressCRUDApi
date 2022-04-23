@@ -1,0 +1,22 @@
+{
+  "name": "expresscrud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "devDependencies": {
+    "express": "^4.17.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saumya9348/expressMongocrud.git"
+  },
+  "author": "saumya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saumya9348/expressMongocrud/issues"
+  },
+  "homepage": "https://github.com/saumya9348/expressMongocrud#readme"
+}
