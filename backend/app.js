@@ -32,5 +32,9 @@ hbs.registerPartials(path.join(__dirname,"./templates/partials"));
 
 app.use("/api/goals",getRoutes);
 
+app.get("/",(req,res)=>{
+    res.status(200).json({message:"Im in root directoty"});
+})
+
 
 app.listen( PORT, () => console.log(`Port running on ${PORT}`) );
